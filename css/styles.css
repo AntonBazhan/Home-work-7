@@ -21,5 +21,58 @@
   }
 
   /*Конейнер*/
+  .container{
+    width: 1400px;
+    margin: 0 auto;
+}
+ /* Навигация */
+
+ .page-header{
+
+  width: 935px;
+   margin: 0 auto;
+}
+
+.site-navigation{
+   display: flex;
+   justify-content: space-between;
+   width: 480px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-size: 14px;
+}
+
+.menu-item a {
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 400;
+ color: #3d3d3d;
+}
+
+.site-logo{
+width: 80px;
+height: 30px;
+text-decoration: none;
+color:#fed136;
+font-family: "Montserrat", sans-serif;
+font-size:30px;
+font-weight: bold;
+
+}
+
+.page-nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ min-height: 110px;
+ margin-bottom: 75px;
+}
+
+.menu-item:hover {
+  color: #fed136;
+}
+ 
 
  
