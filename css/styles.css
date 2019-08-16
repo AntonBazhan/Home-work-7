@@ -150,7 +150,8 @@ font-weight: 400;
 }
 
 .service-item {
-  width: 325px;
+  width: 275px;
+  
 }
 
 .circle {
@@ -184,7 +185,8 @@ font-weight: 400;
 }
 
 .service-description {
-  font-size: 14px;
+  height: 60px;
+  font-size: 13px;
   color: #777777;
   text-align: center;
   margin-top: 18px;
