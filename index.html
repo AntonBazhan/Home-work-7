@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-        <header>        
+        <div class="container">
+        <header>     
+            <div class="container">   
                 <nav class="page-nav" >
-                        
+
                                 <a href="#" class="site-logo">Golden</a>
-         
+    
                             <ul class="site-navigation"> 
                    
                         <li class="menu-item"><a href="#"> home</a></li>
@@ -23,8 +25,95 @@
                         <li class="menu-item"><a  href="#">contact</a></li>
                     </ul>
                 </nav>
-          
         </header>
+
+       <div class="wrapper">
+                <h2 class="title">Services</h2>
+                <h3 class="subtitle">Proin iaculis purus consequat sem cure. </h3>
+
+                <main class="service-box">
+
+                <block class="service-item">
+                        <div class="circle"><img class="img-service" src="img/Icon-Basket@1X.png" alt="E-commerce"
+                                title="E-commerce"></div>
+                        <p class="service-title">e-commerce</p>
+                        <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </block>
     
+                    <block class="service-item">
+                        <div class="circle"><img class="img-service" src="img/Icon-Laptop@1X.png" alt="E-commerce"
+                                title="E-commerce"></div>
+                        <p class="service-title">responsive web</p>
+                        <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </block>
+    
+                    <block class="service-item">
+                        <div class="circle"><img class="img-service" src="img/Icon-Locked@1X.png" alt="E-commerce"
+                                title="E-commerce"></div>
+                        <p class="service-title">web security</p>
+                        <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </block>
+        </main>
+    </div>
+
+    </div>
+
+    <fotter>
+            <div class="fotter">
+
+                <h2 class="title">contact us</h2>
+                <h3 class="subtitle">Proin iaculis purus consequat sem cure</h3>
+                <div class="img-map">
+                    <img src="img/fotter/map.png" title="world map" alt="world map">
+                </div>
+                <form action="#" method="post">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td style="width: 455px;"><input required class="name" type="text" name="name"
+                                        placeholder="your name *"> </td>
+                                <td style="width: 28px;"></td>
+                                <td rowspan="5"><textarea required class="message" name="message"
+                                        placeholder="your message *"></textarea></td>
+                            </tr>
+                            <tr style="height:20px;">
+                                <td></td>
+                                <td style="width: 28px;"></td>
+
+                            </tr>
+                            <tr>
+                                <td><input type="email" required class="email" name="email" placeholder="your e-mail *">
+                                </td>
+                                <td style="width: 28px;"></td>
+
+                            </tr>
+                            <tr style="height: 20px;">
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><input optional class="subject" type="text" name="subject" placeholder="subject">
+                                </td>
+                                <td></td>
+
+                            </tr>
+                            <tr style="height:20px;">
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="3"><input class="button" type="submit" value="send message"></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </fotter>
 </body>
 </html>
